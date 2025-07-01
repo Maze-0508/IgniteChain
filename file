@@ -1,0 +1,10 @@
+Things to do:
+(a) streamline the sdk for sequence
+(b) save the team name, wallet address to a json file
+(c) work on deploying the project from the json file
+(d)
+
+
+
+Disable: sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+enable : sudo sysctl -w net.ipv6.conf.all.disable_ipv6=0
