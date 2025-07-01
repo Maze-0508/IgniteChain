@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const AdminDashboard = () => {
   // Configuration
-  const API_BASE_URL = "http://localhost:5000";
+  const API_BASE_URL = "http://localhost:8000";  //5000 for FlaskAPI
   const BLOCKCHAIN_RPC = "http://127.0.0.1:8545";
   
   const BADGE_TOKEN_REQUIREMENTS = {

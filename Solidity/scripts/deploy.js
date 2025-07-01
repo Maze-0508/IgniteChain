@@ -2,7 +2,7 @@ const fs = require("fs");
 const { ethers } = require("hardhat");
 
 async function main() {
-    const rawData = fs.readFileSync("D:\comp codes\internship_projects\cie\StudentNFT_ver3\IgniteApp\project2\server\data\teamWallets.json");
+    const rawData = fs.readFileSync("D:/Internship/CIE/IgniteChain/project2/server/data/teamWallets.json");
     const accounts = JSON.parse(rawData);
 
     const [deployer] = await ethers.getSigners();
